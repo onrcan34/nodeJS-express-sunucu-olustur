@@ -1,3 +1,5 @@
+# deneme amaçlı alan
+ 
 # nodeJS-express-sunucu-olustur
 express modülü ile sunucu oluşturmak, yapılan isteklere göre verileri dosyaya yazan ve dosyadan okuyan uygulama
 
