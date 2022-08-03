@@ -1,4 +1,3 @@
-
 # nodeJS-express-sunucu-olustur
 express modülü ile sunucu oluşturmak, yapılan isteklere göre verileri dosyaya yazan ve dosyadan okuyan uygulama
 
@@ -24,26 +23,33 @@ Bu proje ile veriler bir dosyada tutularak (yazma ve okuma işlemleri) dinamik b
 ```
 git clone https://github.com/onrcan34/nodeJS-express-sunucu-olustur.git
 ```
-![image](https://user-images.githubusercontent.com/64845818/182032559-f9ac6b24-fa2f-4496-b413-e17b1057f8ee.png)
+![image](https://user-images.githubusercontent.com/64845818/182610565-5ab962f6-ca22-4cb8-96a4-fb10cf0a4b1b.png)
 
 ### Proje dizinine geçmek için
 ```
 cd nodeJS-express-sunucu-olustur
 ```
-![image](https://user-images.githubusercontent.com/64845818/182032602-2dedee16-10dd-4c98-af3a-c398f9010011.png)
+![image](https://user-images.githubusercontent.com/64845818/182610689-f99859a8-de5a-4a32-b20c-14d9111cf98c.png)
 
 ### tüm paketleri tek seferde kurmak için
 ```
 npm i
 ```
-![image](https://user-images.githubusercontent.com/64845818/182032695-fa1c572f-f776-4d47-b077-9328bc60fb2a.png)
+![image](https://user-images.githubusercontent.com/64845818/182610833-828bfa4c-8167-4b9f-8e68-5d5a9030c748.png)
 
 
 ### Konsol uygulamamızı çalıştırmak için
 ```
 node app.js 
 ```
-![image](https://user-images.githubusercontent.com/64845818/182032970-6b684a6a-b4f1-4546-bfdf-342e79c0c866.png)
+![image](https://user-images.githubusercontent.com/64845818/182610988-fc166c73-c05c-4e00-902a-7a35f5ac7ec9.png)
+
+```
+Görüldüğü gibi sunucu 3000 portunu gelebilecek herhangi bir http isteğine response (cevap) göndermek için dinliyor.
+```
+
+![image](https://user-images.githubusercontent.com/64845818/182611428-1c14a8da-b805-4478-ba7d-57a4e0be4f2f.png)
+
 
 ### node the term 'node' is not recognized as the name of a cmdlet hatası için
 ```
@@ -57,14 +63,9 @@ https://www.youtube.com/watch?v=pg4t48BPmh8
 
 ### localhost:3000 get isteğinde bulunmak
 ```
-localhost:3000 şeklinde sunucuya http get isteği yapılır. 
+localhost:3000 şeklinde sunucuya http get isteği yapılır ve response olarak aşağıdaki cevap döner. 
 ```
-![image](https://user-images.githubusercontent.com/64845818/182033100-8e529da6-1605-43d9-9377-464cfbc5f695.png)
-
-```
-Aşağıdaki çıktı turkey girdisinin bir sonucudur.
-```
-![image](https://user-images.githubusercontent.com/64845818/182033394-87f938cc-eead-4dcf-80cb-877a43ac73c3.png)
+![image](https://user-images.githubusercontent.com/64845818/182612143-19889cb8-9b57-47fc-94b0-698bfc1c4c9e.png)
 
 
 ### Kullanıcıya ipucu olarak verilen ülkeler renkli şekilde terminalde görüntülenmektedir.
