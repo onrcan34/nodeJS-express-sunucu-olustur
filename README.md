@@ -113,15 +113,20 @@ footballer.json dosyasında var mı diye kontrol edilir eğer varsa bu id ye sah
 güncelleme işlemi yapılır.
 ```
 
+![img6](https://user-images.githubusercontent.com/64845818/182629803-3e686f89-3c95-4b1e-82df-bee0d85b4618.PNG)
+
 ```
 localhost:3000/player/1 isteği sonucu 1 id li değer footballer.json dosyasında varsa ve
 güncellenecek değerlerde herhangi bir hata tespit edilmediyse 
 ```
 
+![img9](https://user-images.githubusercontent.com/64845818/182630265-4016d5d7-646d-44f6-a673-8e30caebde59.PNG)
+
 ```
 localhost:3000/player/1 isteği sonucu 1 id li değer footballer.json dosyasında varsa ve
 güncellenecek değerlerde herhangi bir hata tespit edildiyse
 ```
+![img7](https://user-images.githubusercontent.com/64845818/182631028-749385c3-d999-49df-add2-6e065a68e1de.PNG)
 
 
 
