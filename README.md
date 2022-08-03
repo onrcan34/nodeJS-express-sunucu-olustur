@@ -91,19 +91,40 @@ istek sonucundan response olarak gönderilen veri aşağıdaki gibidir.
 ### localhost:3000/player/3 delete isteğinde bulunmak
 ```
 localhost:3000/player/3 url adresine delete işlemi uygulandığında parametre olarak verilen 3 değeri 
-footballer.json dosyasında var mı diye kontrol edilir eğer varsa bu id ye sahip footballer diziden
+footballer.json dosyasında var mı diye kontrol edilir eğer varsa bu id ye sahip değer footballer diziden
 silinir. Eğer bu id ye sahip değer bulunmuyorsa "X id li futbolcu dizide bulunamamıştır!" şeklinde
 hem konsola hem de tarayıcıya uyarı mesajı gönderir.
 ```
 
 ```
-localhost:3000/player/3 isteği sonucu 3 id li değer footballer.json dizisinde varsa 
+localhost:3000/player/3 isteği sonucu 3 id li değer footballer.json dosyasında varsa 
 ```
 ![img4](https://user-images.githubusercontent.com/64845818/182622889-e979f6c4-32a0-4995-b6e3-6231877e6db8.PNG)
 
 ```
-localhost:3000/player/25 isteği sonucu 25 id li değer footballer.json dizisinde bulunamadıysa
+localhost:3000/player/25 isteği sonucu 25 id li değer footballer.json dosyasında bulunamadıysa
 ```
+![img5](https://user-images.githubusercontent.com/64845818/182624216-fe10a45d-a098-413c-a82e-fa04ca6e14a7.PNG)
+
+### localhost:3000/player/1 put isteğinde bulunmak
+```
+localhost:3000/player/1 url adresine put isteği yapıldığında parametre olarak verilen 1 değeri
+footballer.json dosyasında var mı diye kontrol edilir eğer varsa bu id ye sahip değer üzerinde
+güncelleme işlemi yapılır.
+```
+
+```
+localhost:3000/player/1 isteği sonucu 1 id li değer footballer.json dosyasında varsa ve
+güncellenecek değerlerde herhangi bir hata tespit edilmediyse 
+```
+
+```
+localhost:3000/player/1 isteği sonucu 1 id li değer footballer.json dosyasında varsa ve
+güncellenecek değerlerde herhangi bir hata tespit edildiyse
+```
+
+
+
 
 
 
