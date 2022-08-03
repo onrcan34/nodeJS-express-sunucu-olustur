@@ -53,10 +53,10 @@ Görüldüğü gibi sunucu 3000 portunu gelebilecek herhangi bir http isteğine 
 
 ### node the term 'node' is not recognized as the name of a cmdlet hatası için
 ```
-Bu hata, kurulumunu yaptığımız node dizini yolunun bulunamamasından kaynaklıdır. Bu hatayı düzeltmek için path ayarı yapılmalır.
-Aşağıdaki link hata çözümüne yardımcı olacaktır.
-https://www.youtube.com/watch?v=pg4t48BPmh8
+Bu hata, kurulumunu yaptığımız node dizini yolunun bulunamamasından kaynaklıdır. Bu hatayı düzeltmek için 
+path ayarı yapılmalır. Aşağıdaki link hata çözümüne yardımcı olacaktır.
 ```
+https://www.youtube.com/watch?v=pg4t48BPmh8
 
 ![image](https://user-images.githubusercontent.com/64845818/182600071-969bdf3d-a88f-4469-ad54-01ad1fe8edf4.png)
 
@@ -68,11 +68,43 @@ localhost:3000 şeklinde sunucuya http get isteği yapılır ve response olarak 
 ![image](https://user-images.githubusercontent.com/64845818/182612143-19889cb8-9b57-47fc-94b0-698bfc1c4c9e.png)
 
 
-### Kullanıcıya ipucu olarak verilen ülkeler renkli şekilde terminalde görüntülenmektedir.
+### localhost:3000/player get isteğinde bulunmak
 ```
-Listelenen ülkeler arasında iki veya daha fazla isimli ülke varsa sadece ilk kelimeyi yazmak yeterlidir.
+localhost:/3000/player http get isteği yapıldığında aşağıdaki gibi bir sonuç döner. Buradaki get isteği 
+"Getting Started" bölümünde bahsedilen postman uygulamasıdır. Uygulamayı aşağıdaki linkden indirip kurabilirsiniz
 ```
-![image](https://user-images.githubusercontent.com/64845818/182033135-9c835f19-af40-4ccd-9a45-fcfbb58e5f00.png)
+https://www.postman.com/downloads/
+
+![img1](https://user-images.githubusercontent.com/64845818/182615942-2bc66f33-be9e-441e-bdc2-6903e79ec779.png)
+
+### localhost:3000/player post isteğinde bulunmak
+```
+Post isteğinde bulunmak için postman uygulaması kullanılmıştır. 
+```
+![img2](https://user-images.githubusercontent.com/64845818/182619068-f08e5d59-d0d5-4f86-9e6d-259d24a139d5.png)
+
+```
+istek sonucundan response olarak gönderilen veri aşağıdaki gibidir.
+```
+![img3](https://user-images.githubusercontent.com/64845818/182619546-223e07dd-43cc-4bff-9a3d-c862d3956b19.PNG)
+
+### localhost:3000/player/3 delete isteğinde bulunmak
+```
+localhost:3000/player/3 url adresine delete işlemi uygulandığında parametre olarak verilen 3 değeri 
+footballer.json dosyasında var mı diye kontrol edilir eğer varsa bu id ye sahip footballer diziden
+silinir. Eğer bu id ye sahip değer bulunmuyorsa "X id li futbolcu dizide bulunamamıştır!" şeklinde
+hem konsola hem de tarayıcıya uyarı mesajı gönderir.
+```
+
+```
+localhost:3000/player/3 isteği sonucu 3 id li değer footballer.json dizisinde varsa 
+```
+![img4](https://user-images.githubusercontent.com/64845818/182622889-e979f6c4-32a0-4995-b6e3-6231877e6db8.PNG)
+
+```
+localhost:3000/player/25 isteği sonucu 25 id li değer footballer.json dizisinde bulunamadıysa
+```
+
 
 
 
