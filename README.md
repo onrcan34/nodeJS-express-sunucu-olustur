@@ -42,7 +42,8 @@ node app.js
 ![image](https://user-images.githubusercontent.com/64845818/182610988-fc166c73-c05c-4e00-902a-7a35f5ac7ec9.png)
 
 ```
-Görüldüğü gibi sunucu 3000 portunu gelebilecek herhangi bir http isteğine response (cevap) göndermek için dinliyor.
+Görüldüğü gibi sunucu 3000 portunu gelebilecek herhangi bir http isteğine response (cevap) göndermek
+için dinliyor.
 ```
 
 ![image](https://user-images.githubusercontent.com/64845818/182611428-1c14a8da-b805-4478-ba7d-57a4e0be4f2f.png)
@@ -67,8 +68,9 @@ localhost:3000 şeklinde sunucuya http get isteği yapılır ve response olarak 
 
 ### localhost:3000/player get isteğinde bulunmak
 ```
-localhost:/3000/player http get isteği yapıldığında aşağıdaki gibi bir sonuç döner. Buradaki get isteği "Getting Started"
-bölümünde bahsedilen postman uygulaması ile yapılır. Uygulamayı aşağıdaki linkden indirip kurabilirsiniz
+localhost:/3000/player http get isteği yapıldığında aşağıdaki gibi bir sonuç döner. Buradaki get isteği 
+"Getting Started" bölümünde bahsedilen postman uygulaması ile yapılır. Uygulamayı aşağıdaki linkden
+indirip kurabilirsiniz
 ```
 https://www.postman.com/downloads/
 
@@ -94,33 +96,36 @@ hem konsola hem de tarayıcıya uyarı mesajı gönderir.
 ```
 
 ```
-localhost:3000/player/3 isteği sonucu 3 id li değer footballer.json dosyasında varsa aşağıdaki response döner.
+localhost:3000/player/3 isteği sonucu 3 id li değer footballer.json dosyasında varsa 
+aşağıdaki response döner.
 ```
 ![img4](https://user-images.githubusercontent.com/64845818/182622889-e979f6c4-32a0-4995-b6e3-6231877e6db8.PNG)
 
 ```
-localhost:3000/player/25 isteği sonucu 25 id li değer footballer.json dosyasında bulunamadıysa aşağıdaki response döner.
+localhost:3000/player/25 isteği sonucu 25 id li değer footballer.json dosyasında bulunamadıysa
+aşağıdaki response döner.
 ```
 ![img5](https://user-images.githubusercontent.com/64845818/182624216-fe10a45d-a098-413c-a82e-fa04ca6e14a7.PNG)
 
 ### localhost:3000/player/1 put isteğinde bulunmak
 ```
-localhost:3000/player/1 url adresine put isteği yapıldığında parametre olarak verilen 1 değeri footballer.json dosyasında 
-var mı diye kontrol edilir eğer varsa bu id ye sahip değer üzerinde güncelleme işlemi yapılır.
+localhost:3000/player/1 url adresine put isteği yapıldığında parametre olarak verilen 1 değeri 
+footballer.json dosyasında var mı diye kontrol edilir eğer varsa bu id ye sahip değer üzerinde güncelleme
+işlemi yapılır.
 ```
 
 ![img6](https://user-images.githubusercontent.com/64845818/182629803-3e686f89-3c95-4b1e-82df-bee0d85b4618.PNG)
 
 ```
-localhost:3000/player/1 isteği sonucu 1 id li değer footballer.json dosyasında varsa ve güncellenecek değerlerde 
-herhangi bir hata tespit edilmediyse aşağıdaki response döner.
+localhost:3000/player/1 isteği sonucu 1 id li değer footballer.json dosyasında varsa ve güncellenecek 
+değerlerde herhangi bir hata tespit edilmediyse aşağıdaki response döner.
 ```
 
 ![img9](https://user-images.githubusercontent.com/64845818/182630265-4016d5d7-646d-44f6-a673-8e30caebde59.PNG)
 
 ```
-localhost:3000/player/1 isteği sonucu 1 id li değer footballer.json dosyasında varsa ve güncellenecek değerlerde 
-herhangi bir hata tespit edildiyse aşağıdaki response döner.
+localhost:3000/player/1 isteği sonucu 1 id li değer footballer.json dosyasında varsa ve güncellenecek 
+değerlerde herhangi bir hata tespit edildiyse aşağıdaki response döner.
 ```
 ![img7](https://user-images.githubusercontent.com/64845818/182631028-749385c3-d999-49df-add2-6e065a68e1de.PNG)
 
