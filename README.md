@@ -51,6 +51,9 @@ Aşağıdaki link hata çözümüne yardımcı olacaktır.
 https://www.youtube.com/watch?v=pg4t48BPmh8
 ```
 
+![image](https://user-images.githubusercontent.com/64845818/182600071-969bdf3d-a88f-4469-ad54-01ad1fe8edf4.png)
+
+
 ### localhost:3000 get isteğinde bulunmak
 ```
 localhost:3000 şeklinde sunucuya http get isteği yapılır. 
